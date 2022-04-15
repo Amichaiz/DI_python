@@ -60,7 +60,8 @@
 #     matrix[x][y] = player
 #
 #
-# def check_win(board=matrix):
+# def check_win():
+#     board=matrix
 #     mark = player
 #     i = 0
 #     j = 0
