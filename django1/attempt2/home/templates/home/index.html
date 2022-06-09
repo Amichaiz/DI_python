@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>this is a template</h1>
+    <p>Dotay is {{today}}</p>
+    <a href="{% url 'notes.list' %}" class="btn btn-primary">SmartNotes</a>
+{% endblock %}
+

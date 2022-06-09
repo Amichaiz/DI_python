@@ -38,4 +38,4 @@ item = MenuItem('Burger', 35)
 item.update('Veggie Burger', 37)
 items = MenuItem.all()
 # for x in items:
-print(item2)
+# print(item2)
